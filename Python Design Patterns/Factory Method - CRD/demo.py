@@ -4,7 +4,6 @@
 
 class FrenchLocalizer:
     """ it simply returns the french version """
-
     def __init__(self):
         self.translations = {"car": "voiture",
                              "bike": "bicyclette", "cycle": "cyclette"}
