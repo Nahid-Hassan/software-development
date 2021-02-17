@@ -4,8 +4,8 @@
 
 **Basic**:
 
-- [ ] Introduction
-- [ ] Keywords
+- [X] Introduction
+- [ ] Keywords - Continue
 - [ ] Comments
 - [ ] Variables
 - [ ] DataTypes
