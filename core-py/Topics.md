@@ -6,8 +6,8 @@
 
 - [X] Introduction
 - [ ] Keywords - Continue
-- [ ] Comments
-- [ ] Variables
+- [X] Comments
+- [X] Variables
 - [ ] DataTypes
 - [ ] Type-Conversion
 - [ ] I/O
