@@ -19,3 +19,44 @@ class Solution:
             return True
         else:
             return False
+
+# Awesome Solution
+# Best time
+"""
+class Solution:
+    def isValid(self, s: str) -> bool:
+        stack = []
+        mapping = {"(":")", "[":"]", "{":"}"}
+        
+        for char in s:
+            
+            if char in mapping:
+                stack.append(char)
+            
+            elif not stack:
+                return False
+            
+            else:
+                open_bracket = stack.pop() 
+                if char != mapping[open_bracket]:
+                    return False
+    
+        
+        return not stack
+"""
+
+# Best Memory use
+"""
+class Solution:
+    def isValid(self, s: str) -> bool:
+        dic = {'(':')','[':']','{':'}'}
+        temp=[]
+        for i in s:
+            if i in dic.keys():
+                temp.append(i)
+            elif temp and dic[temp[-1]] == i:
+                temp.pop()
+            else:
+                return False
+        return(len(temp) == 0)               
+"""
