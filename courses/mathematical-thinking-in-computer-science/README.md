@@ -6,6 +6,7 @@
   - [Table of Contents](#table-of-contents)
     - [Making Convincing Arguments](#making-convincing-arguments)
       - [Proofs](#proofs)
+    - [How to Find an Example?](#how-to-find-an-example)
 
 ### Making Convincing Arguments
 
@@ -18,3 +19,4 @@ Discrete mathematics is the language of computer science. One needs to be fluent
 **Proofs**: An argument that is so convincing that you are ready to use it to convince other people.
 
  
+ ### How to Find an Example?
